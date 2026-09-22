@@ -54,16 +54,3 @@ Built on the [Model Context Protocol](https://modelcontextprotocol.io) — the o
    - "Move dark mode to in progress"
    - "Give me a summary of the roadmap"
 
-## Talking points for interviews / career fair
-
-- "I built an MCP server — the open protocol behind Claude's and other AI tools' ability to take real actions — that lets an AI agent manage a product roadmap."
-- "It's a small demonstration of agentic AI: instead of me clicking through a UI to update a backlog, I describe the change in plain language and the agent executes it through defined tools."
-- "I framed it around product management specifically because that's the direction I'm headed — I wanted to build something that reflected how a PM actually works, not just a generic demo."
-- "Each tool has a strict, typed interface — that's intentional. Agentic tools need clear boundaries on what they can and can't do, which is itself a product/safety design decision."
-
-## Next steps to make it even stronger
-
-- Swap the JSON file for a real SQLite database (shows you understand persistence beyond toy storage)
-- Add a `delete_feature` and `add_comment` tool for more realistic PM workflows
-- Build a tiny web dashboard (even a static HTML page) that reads the same JSON file, so recruiters can *see* the roadmap as well as talk to it
-- Add a `vote_on_feature` tool with a simple scoring system — ties into prioritization frameworks (RICE, MoSCoW) you could mention as PM knowledge
